@@ -46,28 +46,43 @@ Ce projet explore le développement d'une application de gestion hospitalière e
 ### Captures d'écran
 
 **1. Sortie console:**
-* Montrer la sortie de l'application au démarrage, affichant l'initialisation des données et les actions effectuées.
+
 * Inclure la sortie de la commande `findAll()` affichant la liste des patients ajoutés à la base de données.
+  
+![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/f910aa6b-4445-4f47-8e81-1dd6d7512141)
+
+
 * Montrer la sortie de la recherche de patients par état de santé (malade/non malade) et par score.
-* Inclure la sortie de la migration de H2 vers MySQL, confirmant le succès de l'opération.
+
+  ![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/da10ce0d-194d-4dd2-ad54-e733908f9bce)
+
+  
 * Afficher la sortie de la création et de l'attribution de rôles aux utilisateurs, ainsi que le résultat de l'authentification.
+
+  ![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/a44b1a89-cbd4-4e55-bd71-4d214d1aae8f)
+
 
 **2. Interface H2:**
 * Afficher la table "Patient" dans la console H2 avec les données des patients insérés.
-* Montrer la table "Medecin" dans la console H2 avec les données des médecins insérés.
+
+  ![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/df1607c0-eead-45af-aba3-f569f307fc96)
 
 **3. Interface phpMyAdmin:**
 * Afficher la structure de la base de données "patients_db" après la migration vers MySQL.
+
+![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/1aec65f8-091a-4c3e-ae98-4e75dc8073f4)
+
 * Montrer les données de la table "patient" dans phpMyAdmin après la migration.
-* Afficher la structure de la base de données "db_users" après la migration vers MySQL.
-* Montrer les données de la table "roles_users" dans phpMyAdmin après la migration.
+  
+![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/4663fb12-4089-482c-a6ad-1f0d5f50d530)
+
+
 
 **4. Postman:**
-* Montrer la requête GET envoyée à l'URL `http://localhost:8085/patients` pour récupérer la liste des patients.
+  
 * Afficher la réponse JSON renvoyée par le serveur contenant la liste des patients.
-* Montrer la requête GET envoyée à l'URL `http://localhost:8085/users/ahmed` pour rechercher un utilisateur spécifique.
-* Afficher la réponse JSON renvoyée par le serveur contenant les informations de l'utilisateur.
 
+    ![image](https://github.com/Ahmed-ajb/TP2-SD/assets/78688533/745b588d-f07f-4f2a-964e-76063ca0a67a)
 
 ### Conclusion
 
