@@ -1,5 +1,4 @@
-# TP2-SD
-odel:	## TP2_Ajebli_Ahmed: Spring Boot Application with Patient Management
+# TP2_Ajebli_Ahmed: Spring Boot Application with Patient Management
 
 This project explores Spring Boot for building a patient management application, focusing on data persistence and migration between H2 and MySQL databases.
 
